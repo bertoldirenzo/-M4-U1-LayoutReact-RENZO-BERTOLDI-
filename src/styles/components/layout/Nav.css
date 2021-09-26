@@ -47,15 +47,15 @@ nav ul li a.activo{
     }
     nav ul li{
         display:inline-block;
-        width: 33%;
+        width: 33.3%;
         }
     nav ul li:nth-child(4){
-        width: 49.7%;
+        width: 49.9%;
         padding-right: 1px;
         padding-top: 1px;
         }
     nav ul li:nth-child(5){
-        width: 49.7%;
+        width: 49.9%;
         padding: 0;
         }
     nav ul li a{
