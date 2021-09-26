@@ -1,3 +1,9 @@
+import '../styles/components/pages/Home.css'
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Kaisei+Opti:wght@400;500&display=swap');
+</style>
+
 const HomePage = (props) => {
     return (
         <main>

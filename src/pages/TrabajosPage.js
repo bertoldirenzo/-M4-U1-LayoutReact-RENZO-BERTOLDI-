@@ -1,3 +1,5 @@
+import '../styles/components/pages/Trabajos.css'
+
 const TrabajosPage = (props) => {
     return (
         <main>

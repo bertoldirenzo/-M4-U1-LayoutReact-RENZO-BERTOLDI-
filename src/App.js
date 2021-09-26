@@ -13,11 +13,15 @@ import LaboratorioPage from './pages/LaboratorioPage'
 import TrabajosPage from './pages/TrabajosPage'
 import ContactoPage from './pages/ContactoPage'
 
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Kaisei+Opti:wght@400;500&display=swap');
+</style>
+
 
 
 function App() {
   return (
-      <Router>
+    <Router>
       <Header></Header>
       <Nav></Nav>
       <Switch>
@@ -28,7 +32,7 @@ function App() {
         <Route path="/contacto" exact component={ContactoPage} />
       </Switch>
       <Footer></Footer>
-      </Router>
+    </Router>
   );
 }
 
