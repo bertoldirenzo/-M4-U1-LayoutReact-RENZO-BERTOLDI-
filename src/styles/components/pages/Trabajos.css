@@ -1,0 +1,35 @@
+.trabajos .foto{
+    float: left;
+    display:flex;
+    width: 23%;
+    margin: 1em 0 1em 2.5%;
+    border: 1px solid springgreen;
+    padding: 0.3em;
+    box-sizing: border-box;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+}
+
+.trabajos .foto img{
+    width: auto;
+    height: 138px;
+    /* display: block; */
+}
+
+.trabajos .foto:nth-child(4n+1){
+    margin-left: 0;
+}
+
+@media screen and (min-width: 200px) and (max-width: 600px) {
+ 
+    .trabajos .foto{
+        height: 62px;
+    }
+    
+    .trabajos .foto img{
+        width: auto;
+        height: 50px;
+    }
+   
+}
