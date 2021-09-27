@@ -24,12 +24,18 @@
 @media screen and (min-width: 200px) and (max-width: 600px) {
  
     .trabajos .foto{
-        height: 62px;
+        height: 124px;
+        width: 48%;
+        margin: 0.5em 0 0.5em 2.5%;
     }
     
     .trabajos .foto img{
         width: auto;
-        height: 50px;
+        height: 112px;
+    }
+
+    .trabajos .foto:nth-child(2n+1){
+        margin-left: 5px;
     }
    
 }
