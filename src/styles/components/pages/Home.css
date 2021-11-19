@@ -11,6 +11,10 @@ img{
     max-width: 100%;
 }
 
+.home .imgbienvenidos{
+    text-align: center;
+}
+
 @media screen and (min-width: 200px) and (max-width: 600px) {
 	.imgbienvenidos img {
 		height: 210px;
